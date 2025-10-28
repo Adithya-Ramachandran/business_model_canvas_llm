@@ -1,0 +1,18 @@
+# .gitignore
+
+# Virtual Environment
+venv/
+/venv/
+.venv/
+/.venv/
+env/
+/env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# System files
+.DS_Store
+
+.streamlit
