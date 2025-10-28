@@ -29,15 +29,20 @@ The application integrates two essential strategic frameworks:
 The codebase is organized for clarity and maintainability:
 
 ```
-.
-├── app.py                    # Main application logic and UI layout
-├── ui_components.py          # Reusable Streamlit UI functions (e.g., display_card)
-├── canvas_state.py           # Functions for saving, loading, and initializing the canvas
-├── gemini_client.py          # Handles all interactions with the Google Gemini API
-├── constants.py              # Stores static variables and mappings
-├── requirements.txt          # Project dependencies
-└── .streamlit/
-    └── secrets.toml          # Securely stores your API key (you must create this)
+/businessmodelcanvas/
+├── .git/
+├── .gitignore
+├── .streamlit/
+│   └── secrets.toml
+├── app.py                  <-- Stays in root, acts as the entrypoint
+├── src/                    <-- NEW source directory
+│   ├── __init__.py         <-- Makes 'src' a package
+│   ├── canvas_state.py     <-- MOVED
+│   ├── constants.py        <-- MOVED
+│   ├── gemini_client.py    <-- MOVED
+│   └── ui_components.py    <-- MOVED
+├── README.md
+└── environment.yml
 ```
 
 ## 🛠️ Setup and Installation

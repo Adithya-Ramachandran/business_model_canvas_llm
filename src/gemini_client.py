@@ -2,7 +2,7 @@
 
 import streamlit as st
 import google.generativeai as genai
-from canvas_state import update_canvas_data_from_session
+from src.canvas_state import update_canvas_data_from_session
 
 # --- Configure and Initialize Gemini API ---
 try:

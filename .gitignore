@@ -7,6 +7,8 @@ venv/
 /.venv/
 env/
 /env/
+.idea
+.streamlit
 
 # Python cache
 __pycache__/
@@ -15,4 +17,3 @@ __pycache__/
 # System files
 .DS_Store
 
-.streamlit

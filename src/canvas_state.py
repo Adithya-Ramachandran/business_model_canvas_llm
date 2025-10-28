@@ -3,7 +3,7 @@
 import streamlit as st
 import json
 import os
-from constants import CANVAS_FILE
+from src.constants import CANVAS_FILE
 
 
 def initialize_canvas_state(reset=False):

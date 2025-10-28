@@ -3,10 +3,10 @@
 import streamlit as st
 
 # Import from your new modules
-from ui_components import display_card
-from canvas_state import initialize_canvas_state, save_canvas_to_file, load_canvas_from_file
-from gemini_client import handle_llm_request
-from constants import CANVAS_SECTIONS_MAP
+from src.ui_components import display_card
+from src.canvas_state import initialize_canvas_state, save_canvas_to_file, load_canvas_from_file
+from src.gemini_client import handle_llm_request
+from src.constants import CANVAS_SECTIONS_MAP
 
 
 def setup_page_style():
