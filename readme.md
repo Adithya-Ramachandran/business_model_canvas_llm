@@ -34,13 +34,13 @@ The codebase is organized for clarity and maintainability:
 ├── .gitignore
 ├── .streamlit/
 │   └── secrets.toml
-├── app.py                  <-- Stays in root, acts as the entrypoint
-├── src/                    <-- NEW source directory
-│   ├── __init__.py         <-- Makes 'src' a package
-│   ├── canvas_state.py     <-- MOVED
-│   ├── constants.py        <-- MOVED
-│   ├── gemini_client.py    <-- MOVED
-│   └── ui_components.py    <-- MOVED
+├── app.py
+├── src/
+│   ├── __init__.py
+│   ├── canvas_state.py
+│   ├── constants.py
+│   ├── gemini_client.py
+│   └── ui_components.py
 ├── README.md
 └── environment.yml
 ```
