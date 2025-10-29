@@ -64,8 +64,7 @@ cd business_model_canvas_llm
 ### 2.  **Set Up an Environment**
    - Install all the required Python libraries using the environment.yml file.
 
-```
-bash
+```bash
 conda create -n <environment-name> --environment.yml
 ```
 
