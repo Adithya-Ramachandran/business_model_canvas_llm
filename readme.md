@@ -61,18 +61,15 @@ git clone https://github.com/your-username/business_model_canvas_llm.git
 cd business_model_canvas_llm
 ```
 
-### 2. Create an Environment
+### 2.  **Set Up an Environment**
+   - Install all the required Python libraries using the environment.yml file.
 
-
-### 3. Install Dependencies
-
-Install all the required Python libraries using the `environment.yml` file.
-
-```bash
+```
+bash
 conda create -n <environment-name> --environment.yml
 ```
 
-### 4. Configure Your API Key
+### 3. Configure Your API Key
 
 Streamlit uses a `secrets.toml` file to manage sensitive information like API keys securely.
 
@@ -86,7 +83,7 @@ Streamlit uses a `secrets.toml` file to manage sensitive information like API ke
 GEMINI_API_KEY = "YOUR_API_KEY_HERE"
 ```
 
-### 5. Run the Application
+### 4. Run the Application
 
 Once the setup is complete, run the Streamlit app from your terminal:
 
